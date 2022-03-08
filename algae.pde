@@ -90,7 +90,7 @@ void draw() {
   
   println(frameCount,"/",numFrames);
   if (frameCount==numFrames) {
-    saveFrame("/home/crltt/Dropbox/bin/processing/algae/output/batchTestImages_V01/algae_batchTestImages_V01_var_"
+    saveFrame("./output/batchTestImages_V01/algae_batchTestImages_V01_var_"
               + variationSelect + "_" + int(frameRate) + "_" + args[0] + ".png");
     exit();
   }
